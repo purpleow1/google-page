@@ -33,14 +33,16 @@
     </header>
     <main>
       <img class="google-logo-icon" src="img/google-logo-icon.png" height="92" width="172" alt="google">
-      <form class="search-box">
-        <input></input>
-        <img class="search-by-voice-icon" src="img/search-by-voice-icon.png" width="14" height="20" alt="search by voice">
+      <form action="https://www.google.com/search" method="get">
+        <div class="search-box">
+          <input type="text" name="q" autocomplete="off">
+          <img class="search-by-voice-icon" src="img/search-by-voice-icon.png" width="14" height="20" alt="search by voice">
+        </div>
+        <div class="center-buttoms">
+          <input class="center-buttom" value="Google Search" aria-label="Google Search" name="btnK" type="submit" jsaction="sf.chk">
+          <input class="center-buttom" value="I'm Feeling Lucky" aria-label="I'm Feeling Lucky" name="btnI" type="submit" jsaction="sf.lck">
+        </div>
       </form>
-      <div class="center-buttoms">
-        <div class="center-buttom">Google Search</div>
-        <div class="center-buttom">I'm Feeling Lucky</div>
-      </div>
     </main>
     <footer>
       <div class="footer-navigation" class="left-footer-navigation">
