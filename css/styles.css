@@ -239,3 +239,21 @@ footer a {
 footer a:hover {
   text-decoration: underline;
 }
+@-moz-document url-prefix() {
+  .header-navigation {
+    margin-top: 1px;
+  }
+  .right-header-navigation {
+    width: 242px;
+  }
+  .google-apps-square {
+    margin-top: 0;
+  }
+  .sign-in-button {
+    width: 71px;
+    margin-top: 0;
+  }
+  .footer-navigation{
+    margin-top: 1px;
+  }
+}
