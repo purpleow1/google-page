@@ -174,12 +174,12 @@ form {
   border: 5px solid transparent;
   border-bottom-color: rgba(0, 0, 0, 0.83);
 }
-.center-buttoms {
+.center-buttons {
   width: auto;
   text-align: center;
   margin-top: 20px;
 }
-.center-buttom {
+.center-button {
   display: inline-block;
   width: auto;
   height: 36px;
@@ -196,9 +196,13 @@ form {
   font-weight: bold;
   text-align: center;
 }
-.center-buttom:hover {
+.center-button:hover {
   border: 1px solid rgba(0, 0, 0, 0.2);
   color: #000;
+}
+.center-button:focus {
+  outline: none;
+  border: 1px solid #4285f4;
 }
 footer {
   min-width: 980px;
