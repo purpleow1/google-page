@@ -1,5 +1,5 @@
 body {
-  font-family: arial,sans-serif;
+  font-family: arial, sans-serif;
   font-size: 0;
   margin: 0;
   padding: 0;
@@ -21,22 +21,30 @@ header {
   display: inline-flex;
   align-items: center;
 }
-header div:first-child a {
+.left-header-navigation {
+  width: 98.56px;
+}
+.right-header-navigation {
+  width: 240.92px;
+}
+.left-header-navigation a {
   opacity: 0.75;
 }
-header div:first-child a:hover {
+.left-header-navigation a:hover {
   text-decoration: underline;
 }
-header > div:last-child > a:nth-child(1) {
+.left-header-navigation a:last-child {
+  padding-left: 18.5px;
+}
+.right-header-navigation > a:nth-child(1) {
   padding-left: 0;
 }
-header > div:last-child > a:nth-child(1),
-header > div:last-child > a:nth-child(2) {
-  //opacity: 0.87;
+.right-header-navigation > a:nth-child(1),
+.right-header-navigation > a:nth-child(2) {
   opacity: 0.97;
 }
-header > div:last-child > a:nth-child(1):hover,
-header > div:last-child > a:nth-child(2):hover {
+.right-header-navigation > a:nth-child(1):hover,
+.right-header-navigation > a:nth-child(2):hover {
   text-decoration: underline;
   opacity: 0.75;
 }
@@ -45,9 +53,6 @@ a {
   padding-left: 15px;
   color: rgb(0, 0, 0);
   text-decoration: none;
-}
-.header-reference-store {
-  padding-left: 18.5px;
 }
 .google-apps-square {
   width: 30px;
@@ -60,13 +65,13 @@ a {
   justify-content: space-between;
   align-content: space-between;
 }
-.sq {
+.google-apps-square div {
   width: 4px;
   height: 4px;
   margin: 1px;
   background-color: rgba(0, 0, 0, 0.55);
 }
-.google-apps-square:hover .sq {
+.google-apps-square:hover div {
   background-color: rgb(0, 0, 0);
 }
 .sign-in-button {
@@ -154,7 +159,7 @@ form {
   width: 14px;
   height: 20px;
 }
-.search-box-reference {
+.search-box a {
   padding: 0;
 }
 .tooltip {
