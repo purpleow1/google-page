@@ -16,13 +16,16 @@ header {
   padding: 0 10px;
 }
 .header-navigation {
-  width: auto;
   height: 30px;
   display: inline-flex;
   align-items: center;
+  justify-content: space-between;
 }
 .left-header-navigation {
   width: 98.56px;
+}
+.left-header-navigation a {
+  padding-left: 15px;
 }
 .right-header-navigation {
   width: 240.92px;
@@ -32,9 +35,6 @@ header {
 }
 .left-header-navigation a:hover {
   text-decoration: underline;
-}
-.left-header-navigation a:last-child {
-  padding-left: 18.5px;
 }
 .right-header-navigation > a:nth-child(1) {
   padding-left: 0;
@@ -50,7 +50,6 @@ header {
 }
 a {
   font-size: 13px;
-  padding-left: 15px;
   color: rgb(0, 0, 0);
   text-decoration: none;
 }
@@ -83,28 +82,19 @@ a {
   background-color: #4285f4;
   color: #fff;
   font-weight: bold;
-  //display: flex;
-  //justify-content: center;
-  //align-items: center;
   border-radius: 2px;
-  //margin-right: 15px;
-  margin-left: 15px;
   margin-right: 20px;
   cursor: default;
   text-decoration: none;
   text-align: center;
-  //padding-top: 6px;
 }
 .sign-in-button-reference {
-  //height: 30px;
-  //width: 69.34px;
   box-sizing: border-box;
   padding: 0;
   color: #fff;
   text-decoration: none;
   cursor: default;
   padding-top: 6px;
-  //text-align: center;
   display: block;
   height: 100%;
 }
@@ -112,12 +102,10 @@ a {
   text-decoration: none;
   color: #fff;
   opacity: 1;
-  //cursor: default;
 }
 main {
   box-sizing: border-box;
   width: 100%;
-  //margin-top: 153px;
   padding-top: 153px;
 }
 .google-logo-icon {
@@ -207,20 +195,14 @@ form {
   cursor: default;
   font-weight: bold;
   text-align: center;
-  //font: 400 13.3333px Arial;
 }
 .center-buttom:hover {
   border: 1px solid rgba(0, 0, 0, 0.2);
   color: #000;
 }
 footer {
-  //box-sizing: border-box;
-  //border: 1px solid black;
-  //background-color: yellow;
-
   min-width: 980px;
   width: 100%;
-
   position: absolute;
   top: 493px;
   min-height: 41px;
